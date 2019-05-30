@@ -6,7 +6,7 @@
   function displayitemInfo() {
 
     var item = $(this).attr("data-name");
-    var queryURL = "http://api.walmartlabs.com/v1/search?" + "&apiKey=vng9pukufs97mcyyjs5ps266&query=" + item + "&format=json&callback=foo";
+    var queryURL = "https://api.walmartlabs.com/v1/search?" + "&apiKey=vng9pukufs97mcyyjs5ps266&query=" + item + "&format=json&callback=foo";
     // var queryURL = "http://api.walmartlabs.com/v1/items/206672856?apiKey=vng9pukufs97mcyyjs5ps266";
     // Creating an AJAX call for the specific item button being clicked
     $.ajax({
